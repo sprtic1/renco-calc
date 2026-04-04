@@ -83,7 +83,7 @@ body {
   margin: 0 auto;
 }
 .preview-img {
-  width: auto;
+  width: 100%;
   max-width: 1024px;
   max-height: 576px;
   object-fit: cover;
