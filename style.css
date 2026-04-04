@@ -156,6 +156,13 @@ body {
   margin-bottom: 1.5rem;
   color: var(--olive-d);
 }
+.section-subtitle {
+  font-family: var(--mono);
+  font-size: 0.8rem;
+  color: #999;
+  margin-top: -1rem;
+  margin-bottom: 1.5rem;
+}
 
 /* === Two-col layout === */
 .two-col {
@@ -166,7 +173,24 @@ body {
 }
 @media (max-width: 900px) {
   .two-col { grid-template-columns: 1fr; }
-  .kpi-strip { grid-template-columns: repeat(2, 1fr); margin-top: -1.5rem; }
+  .kpi-strip { grid-template-columns: repeat(2, 1fr); }
+  .hero { padding: 2.5rem 1rem 2rem; }
+  .hero-title { font-size: 2.2rem; }
+  .section { padding: 2rem 1rem; }
+  .section-title { font-size: 1.4rem; }
+  .kpi-value { font-size: 1.8rem; }
+  .kpi-card { padding: 1.2rem 1rem; }
+  .chart-container { max-width: 240px; }
+  .shipping-grid { grid-template-columns: 1fr; }
+  .preview { padding: 0 1rem 2rem; }
+}
+@media (max-width: 480px) {
+  .hero-title { font-size: 1.8rem; }
+  .kpi-value { font-size: 1.5rem; }
+  .kpi-label { font-size: 0.6rem; }
+  .data-table { font-size: 0.75rem; }
+  .data-table th, .data-table td { padding: 0.4rem 0.5rem; }
+  .wall-table { font-size: 0.65rem; }
 }
 
 /* === Chart === */
@@ -211,7 +235,8 @@ body {
   padding: 0.75rem 1rem;
 }
 
-.table-scroll { overflow-x: auto; border-radius: 8px; }
+.table-scroll { overflow-x: auto; border-radius: 8px; -webkit-overflow-scrolling: touch; }
+.block-table-wrap { overflow-x: auto; }
 
 /* Wall table specifics */
 .wall-table { font-family: var(--mono); font-size: 0.78rem; }
