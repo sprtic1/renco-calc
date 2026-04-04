@@ -41,13 +41,7 @@ body {
   position: relative;
   overflow: hidden;
 }
-.hero::after {
-  content: '';
-  position: absolute;
-  bottom: 0; left: 0; right: 0;
-  height: 6px;
-  background: linear-gradient(90deg, var(--olive), var(--sage), var(--olive));
-}
+/* no divider line — hero flows into preview */
 .hero-inner { max-width: 900px; margin: 0 auto; }
 .hero-brand {
   font-family: var(--mono);
