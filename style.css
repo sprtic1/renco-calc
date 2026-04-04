@@ -78,6 +78,33 @@ body {
   margin-top: 0.5rem;
 }
 
+/* === Project Preview === */
+.preview {
+  background: var(--dark);
+  padding: 0 2rem 3rem;
+  text-align: center;
+}
+.preview-inner {
+  max-width: 960px;
+  margin: 0 auto;
+}
+.preview-img {
+  width: 100%;
+  max-height: 480px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 12px 48px rgba(0,0,0,0.4);
+  border: 2px solid rgba(255,255,255,0.08);
+}
+.preview-caption {
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.35);
+  margin-top: 0.75rem;
+}
+
 /* === KPI Strip === */
 .kpi-strip {
   display: grid;

@@ -62,6 +62,8 @@ function renderHero(data) {
     d.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }) +
     ' at ' + d.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' });
   document.title = `RENCO Block Schedule — ${data.project.name}`;
+  const caption = document.getElementById('preview-caption');
+  if (caption) caption.textContent = data.project.name;
 }
 
 function renderKPIs(data) {
