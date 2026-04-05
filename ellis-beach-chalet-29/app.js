@@ -52,6 +52,7 @@ async function init() {
   renderBlockTable(data);
   renderWallSchedule(data);
   renderShipping(data);
+  renderConsumables(data);
   renderWarnings(data);
 }
 
@@ -249,6 +250,28 @@ function renderShipping(data) {
     `;
     grid.appendChild(card);
   });
+}
+
+function renderConsumables(data) {
+  const el = document.getElementById('consumables');
+  if (!el || !data.consumables) return;
+  const c = data.consumables;
+  const est = c.adhesive_confirmed ? '' : ' (estimated)';
+  el.innerHTML = `
+    <h3 class="consumables-title">Consumables & Equipment</h3>
+    <div class="consumables-grid">
+      <div class="consumable-item">
+        <div class="consumable-value">${c.adhesive_cartridges}</div>
+        <div class="consumable-label">Adhesive Cartridges${est}</div>
+        <div class="consumable-detail">${fmt(c.adhesive_joint_linear_ft)} LF horizontal joints</div>
+      </div>
+      <div class="consumable-item">
+        <div class="consumable-value">${c.mallets}</div>
+        <div class="consumable-label">Rubber Mallets</div>
+        <div class="consumable-detail">Crew size: ${c.crew_size}</div>
+      </div>
+    </div>
+  `;
 }
 
 function renderWarnings(data) {

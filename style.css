@@ -421,6 +421,47 @@ body {
 .footer strong { color: var(--sage); }
 .footer-note { margin-top: 0.5rem; font-size: 0.7rem; opacity: 0.6; }
 
+/* === Consumables === */
+.consumables-section { margin-top: 2rem; }
+.consumables-title {
+  font-family: var(--serif);
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--olive-d);
+  margin-bottom: 1rem;
+}
+.consumables-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+}
+.consumable-item {
+  background: var(--sage-lt);
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+}
+.consumable-value {
+  font-family: var(--serif);
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--olive-d);
+}
+.consumable-label {
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #666;
+  margin-top: 0.25rem;
+}
+.consumable-detail {
+  font-family: var(--mono);
+  font-size: 0.65rem;
+  color: #999;
+  margin-top: 0.25rem;
+}
+
 /* === Breadcrumb === */
 .breadcrumb {
   background: var(--dark);

@@ -1,7 +1,7 @@
 {
   "project": {
     "name": "Ellis Beach Chalet 29",
-    "run_date": "2026-04-05T13:17:52",
+    "run_date": "2026-04-05T13:23:56",
     "total_walls": 22,
     "walls_with_warnings": 1,
     "excluded_walls": 0
@@ -10,67 +10,79 @@
     "total_blocks": 2107,
     "total_weight_lbs": 29298.4,
     "weight_is_estimated": true,
-    "containers_required": 2,
-    "container_recommendation": "1x 20ft High Cube + 1x 40ft High Cube",
-    "container_utilisation": 84.4,
+    "containers_required": 3,
+    "container_recommendation": "3x 20ft High Cube",
+    "container_utilisation": 81.7,
     "container_options": [
       {
         "label": "1x 20ft High Cube + 1x 40ft High Cube",
         "containers": 2,
         "capacity": 64,
-        "utilisation": 84.4,
-        "recommended": true
-      },
-      {
-        "label": "1x 20ft High Cube + 1x 40ft Standard [HEIGHT EXCEEDED]",
-        "containers": 2,
-        "capacity": 64,
-        "utilisation": 84.4,
-        "recommended": false
-      },
-      {
-        "label": "1x 20ft Standard + 1x 40ft High Cube [HEIGHT EXCEEDED]",
-        "containers": 2,
-        "capacity": 64,
-        "utilisation": 84.4,
-        "recommended": false
-      },
-      {
-        "label": "1x 20ft Standard + 1x 40ft Standard [HEIGHT EXCEEDED]",
-        "containers": 2,
-        "capacity": 64,
-        "utilisation": 84.4,
+        "utilisation": 76.6,
         "recommended": false
       },
       {
         "label": "2x 40ft High Cube",
         "containers": 2,
         "capacity": 88,
-        "utilisation": 61.4,
+        "utilisation": 55.7,
         "recommended": false
       },
       {
-        "label": "1x 40ft Standard + 1x 40ft High Cube [HEIGHT EXCEEDED]",
+        "label": "1x 20ft High Cube + 1x 40ft Standard [HEIGHT EXCEEDED]",
         "containers": 2,
-        "capacity": 88,
-        "utilisation": 61.4,
+        "capacity": 64,
+        "utilisation": 76.6,
         "recommended": false
       },
       {
-        "label": "2x 40ft Standard [HEIGHT EXCEEDED]",
+        "label": "1x 20ft Standard + 1x 40ft High Cube [HEIGHT EXCEEDED]",
         "containers": 2,
-        "capacity": 88,
-        "utilisation": 61.4,
+        "capacity": 64,
+        "utilisation": 76.6,
         "recommended": false
       },
       {
-        "label": "3x 20ft High Cube",
-        "containers": 3,
-        "capacity": 60,
-        "utilisation": 90.0,
+        "label": "1x 20ft Standard + 1x 40ft Standard [HEIGHT EXCEEDED]",
+        "containers": 2,
+        "capacity": 64,
+        "utilisation": 76.6,
         "recommended": false
       }
     ]
+  },
+  "pallet_specs": {
+    "COM-32": {
+      "blocks_per_pallet": 36,
+      "blocks_per_layer": 6,
+      "layers": 6,
+      "pallet_height_in": 48
+    },
+    "COM-16": {
+      "blocks_per_pallet": 90,
+      "blocks_per_layer": 15,
+      "layers": 6,
+      "pallet_height_in": 48
+    },
+    "COM-8": {
+      "blocks_per_pallet": 180,
+      "blocks_per_layer": 30,
+      "layers": 6,
+      "pallet_height_in": 48
+    },
+    "COM-4": {
+      "blocks_per_pallet": 360,
+      "blocks_per_layer": 60,
+      "layers": 6,
+      "pallet_height_in": 48
+    }
+  },
+  "consumables": {
+    "adhesive_cartridges": 46,
+    "adhesive_joint_linear_ft": 4594.0,
+    "adhesive_confirmed": false,
+    "mallets": 1,
+    "crew_size": 4
   },
   "blocks": [
     {
@@ -573,164 +585,54 @@
         {
           "pallet_number": 1,
           "block_id": "COM-16",
-          "block_count": 40,
-          "weight_lbs": 377.0,
+          "block_count": 90,
+          "weight_lbs": 802.0,
           "position": {
             "layer": 1,
             "row": 1,
             "col": 1
-          }
-        },
-        {
-          "pallet_number": 2,
-          "block_id": "COM-16",
-          "block_count": 40,
-          "weight_lbs": 377.0,
-          "position": {
-            "layer": 1,
-            "row": 1,
-            "col": 2
-          }
-        },
-        {
-          "pallet_number": 3,
-          "block_id": "COM-16",
-          "block_count": 40,
-          "weight_lbs": 377.0,
-          "position": {
-            "layer": 1,
-            "row": 1,
-            "col": 3
           }
         },
         {
           "pallet_number": 4,
-          "block_id": "COM-16",
-          "block_count": 40,
-          "weight_lbs": 377.0,
-          "position": {
-            "layer": 1,
-            "row": 1,
-            "col": 4
-          }
-        },
-        {
-          "pallet_number": 5,
-          "block_id": "COM-16",
-          "block_count": 13,
-          "weight_lbs": 147.5,
-          "position": {
-            "layer": 1,
-            "row": 1,
-            "col": 5
-          }
-        },
-        {
-          "pallet_number": 6,
           "block_id": "COM-32",
-          "block_count": 40,
-          "weight_lbs": 717.0,
+          "block_count": 36,
+          "weight_lbs": 649.0,
           "position": {
             "layer": 1,
-            "row": 2,
-            "col": 1
+            "row": 1,
+            "col": 2
           }
         },
         {
           "pallet_number": 7,
           "block_id": "COM-32",
-          "block_count": 40,
-          "weight_lbs": 717.0,
+          "block_count": 36,
+          "weight_lbs": 649.0,
           "position": {
             "layer": 1,
-            "row": 2,
-            "col": 2
-          }
-        },
-        {
-          "pallet_number": 8,
-          "block_id": "COM-32",
-          "block_count": 40,
-          "weight_lbs": 717.0,
-          "position": {
-            "layer": 1,
-            "row": 2,
+            "row": 1,
             "col": 3
-          }
-        },
-        {
-          "pallet_number": 9,
-          "block_id": "COM-32",
-          "block_count": 40,
-          "weight_lbs": 717.0,
-          "position": {
-            "layer": 1,
-            "row": 2,
-            "col": 4
           }
         },
         {
           "pallet_number": 10,
           "block_id": "COM-32",
-          "block_count": 40,
-          "weight_lbs": 717.0,
+          "block_count": 36,
+          "weight_lbs": 649.0,
           "position": {
             "layer": 1,
-            "row": 2,
-            "col": 5
-          }
-        },
-        {
-          "pallet_number": 11,
-          "block_id": "COM-32",
-          "block_count": 40,
-          "weight_lbs": 717.0,
-          "position": {
-            "layer": 2,
-            "row": 1,
-            "col": 1
-          }
-        },
-        {
-          "pallet_number": 12,
-          "block_id": "COM-32",
-          "block_count": 40,
-          "weight_lbs": 717.0,
-          "position": {
-            "layer": 2,
-            "row": 1,
-            "col": 2
-          }
-        },
-        {
-          "pallet_number": 13,
-          "block_id": "COM-32",
-          "block_count": 40,
-          "weight_lbs": 717.0,
-          "position": {
-            "layer": 2,
-            "row": 1,
-            "col": 3
-          }
-        },
-        {
-          "pallet_number": 14,
-          "block_id": "COM-32",
-          "block_count": 40,
-          "weight_lbs": 717.0,
-          "position": {
-            "layer": 2,
             "row": 1,
             "col": 4
           }
         },
         {
-          "pallet_number": 15,
+          "pallet_number": 13,
           "block_id": "COM-32",
-          "block_count": 40,
-          "weight_lbs": 717.0,
+          "block_count": 36,
+          "weight_lbs": 649.0,
           "position": {
-            "layer": 2,
+            "layer": 1,
             "row": 1,
             "col": 5
           }
@@ -738,8 +640,118 @@
         {
           "pallet_number": 16,
           "block_id": "COM-32",
-          "block_count": 40,
-          "weight_lbs": 717.0,
+          "block_count": 36,
+          "weight_lbs": 649.0,
+          "position": {
+            "layer": 1,
+            "row": 2,
+            "col": 1
+          }
+        },
+        {
+          "pallet_number": 19,
+          "block_id": "COM-32",
+          "block_count": 36,
+          "weight_lbs": 649.0,
+          "position": {
+            "layer": 1,
+            "row": 2,
+            "col": 2
+          }
+        },
+        {
+          "pallet_number": 22,
+          "block_id": "COM-32",
+          "block_count": 36,
+          "weight_lbs": 649.0,
+          "position": {
+            "layer": 1,
+            "row": 2,
+            "col": 3
+          }
+        },
+        {
+          "pallet_number": 25,
+          "block_id": "COM-32",
+          "block_count": 36,
+          "weight_lbs": 649.0,
+          "position": {
+            "layer": 1,
+            "row": 2,
+            "col": 4
+          }
+        },
+        {
+          "pallet_number": 28,
+          "block_id": "COM-32",
+          "block_count": 36,
+          "weight_lbs": 649.0,
+          "position": {
+            "layer": 1,
+            "row": 2,
+            "col": 5
+          }
+        },
+        {
+          "pallet_number": 31,
+          "block_id": "COM-32",
+          "block_count": 36,
+          "weight_lbs": 649.0,
+          "position": {
+            "layer": 2,
+            "row": 1,
+            "col": 1
+          }
+        },
+        {
+          "pallet_number": 34,
+          "block_id": "COM-32",
+          "block_count": 36,
+          "weight_lbs": 649.0,
+          "position": {
+            "layer": 2,
+            "row": 1,
+            "col": 2
+          }
+        },
+        {
+          "pallet_number": 37,
+          "block_id": "COM-32",
+          "block_count": 36,
+          "weight_lbs": 649.0,
+          "position": {
+            "layer": 2,
+            "row": 1,
+            "col": 3
+          }
+        },
+        {
+          "pallet_number": 40,
+          "block_id": "COM-32",
+          "block_count": 36,
+          "weight_lbs": 649.0,
+          "position": {
+            "layer": 2,
+            "row": 1,
+            "col": 4
+          }
+        },
+        {
+          "pallet_number": 43,
+          "block_id": "COM-32",
+          "block_count": 36,
+          "weight_lbs": 649.0,
+          "position": {
+            "layer": 2,
+            "row": 1,
+            "col": 5
+          }
+        },
+        {
+          "pallet_number": 46,
+          "block_id": "COM-32",
+          "block_count": 1,
+          "weight_lbs": 54.0,
           "position": {
             "layer": 2,
             "row": 2,
@@ -747,51 +759,18 @@
           }
         },
         {
-          "pallet_number": 17,
-          "block_id": "COM-32",
-          "block_count": 40,
-          "weight_lbs": 717.0,
+          "pallet_number": 49,
+          "block_id": "COM-8",
+          "block_count": 132,
+          "weight_lbs": 604.6,
           "position": {
             "layer": 2,
             "row": 2,
             "col": 2
           }
-        },
-        {
-          "pallet_number": 18,
-          "block_id": "COM-32",
-          "block_count": 40,
-          "weight_lbs": 717.0,
-          "position": {
-            "layer": 2,
-            "row": 2,
-            "col": 3
-          }
-        },
-        {
-          "pallet_number": 19,
-          "block_id": "COM-32",
-          "block_count": 40,
-          "weight_lbs": 717.0,
-          "position": {
-            "layer": 2,
-            "row": 2,
-            "col": 4
-          }
-        },
-        {
-          "pallet_number": 20,
-          "block_id": "COM-32",
-          "block_count": 40,
-          "weight_lbs": 717.0,
-          "position": {
-            "layer": 2,
-            "row": 2,
-            "col": 5
-          }
         }
       ],
-      "total_pallets": 20,
+      "total_pallets": 17,
       "layers_used": 2,
       "loaded_pallet_height_in": 48,
       "stack_height_in": 96,
@@ -799,19 +778,19 @@
     },
     {
       "container_number": 2,
-      "type": "40HC",
-      "name": "40ft High Cube",
-      "interior_length_in": 473,
-      "interior_width_in": 93,
+      "type": "20HC",
+      "name": "20ft High Cube",
+      "interior_length_in": 232,
+      "interior_width_in": 92,
       "interior_height_in": 102,
-      "max_payload_lbs": 58135,
-      "max_pallets": 44,
+      "max_payload_lbs": 47070,
+      "max_pallets": 20,
       "pallets": [
         {
-          "pallet_number": 21,
-          "block_id": "COM-32",
-          "block_count": 40,
-          "weight_lbs": 717.0,
+          "pallet_number": 2,
+          "block_id": "COM-16",
+          "block_count": 83,
+          "weight_lbs": 742.5,
           "position": {
             "layer": 1,
             "row": 1,
@@ -819,153 +798,87 @@
           }
         },
         {
-          "pallet_number": 22,
+          "pallet_number": 5,
           "block_id": "COM-32",
-          "block_count": 40,
-          "weight_lbs": 717.0,
+          "block_count": 36,
+          "weight_lbs": 649.0,
           "position": {
             "layer": 1,
             "row": 1,
+            "col": 2
+          }
+        },
+        {
+          "pallet_number": 8,
+          "block_id": "COM-32",
+          "block_count": 36,
+          "weight_lbs": 649.0,
+          "position": {
+            "layer": 1,
+            "row": 1,
+            "col": 3
+          }
+        },
+        {
+          "pallet_number": 11,
+          "block_id": "COM-32",
+          "block_count": 36,
+          "weight_lbs": 649.0,
+          "position": {
+            "layer": 1,
+            "row": 1,
+            "col": 4
+          }
+        },
+        {
+          "pallet_number": 14,
+          "block_id": "COM-32",
+          "block_count": 36,
+          "weight_lbs": 649.0,
+          "position": {
+            "layer": 1,
+            "row": 1,
+            "col": 5
+          }
+        },
+        {
+          "pallet_number": 17,
+          "block_id": "COM-32",
+          "block_count": 36,
+          "weight_lbs": 649.0,
+          "position": {
+            "layer": 1,
+            "row": 2,
+            "col": 1
+          }
+        },
+        {
+          "pallet_number": 20,
+          "block_id": "COM-32",
+          "block_count": 36,
+          "weight_lbs": 649.0,
+          "position": {
+            "layer": 1,
+            "row": 2,
             "col": 2
           }
         },
         {
           "pallet_number": 23,
           "block_id": "COM-32",
-          "block_count": 40,
-          "weight_lbs": 717.0,
+          "block_count": 36,
+          "weight_lbs": 649.0,
           "position": {
             "layer": 1,
-            "row": 1,
+            "row": 2,
             "col": 3
-          }
-        },
-        {
-          "pallet_number": 24,
-          "block_id": "COM-32",
-          "block_count": 40,
-          "weight_lbs": 717.0,
-          "position": {
-            "layer": 1,
-            "row": 1,
-            "col": 4
-          }
-        },
-        {
-          "pallet_number": 25,
-          "block_id": "COM-32",
-          "block_count": 40,
-          "weight_lbs": 717.0,
-          "position": {
-            "layer": 1,
-            "row": 1,
-            "col": 5
           }
         },
         {
           "pallet_number": 26,
           "block_id": "COM-32",
-          "block_count": 40,
-          "weight_lbs": 717.0,
-          "position": {
-            "layer": 1,
-            "row": 1,
-            "col": 6
-          }
-        },
-        {
-          "pallet_number": 27,
-          "block_id": "COM-32",
-          "block_count": 40,
-          "weight_lbs": 717.0,
-          "position": {
-            "layer": 1,
-            "row": 1,
-            "col": 7
-          }
-        },
-        {
-          "pallet_number": 28,
-          "block_id": "COM-32",
-          "block_count": 40,
-          "weight_lbs": 717.0,
-          "position": {
-            "layer": 1,
-            "row": 1,
-            "col": 8
-          }
-        },
-        {
-          "pallet_number": 29,
-          "block_id": "COM-32",
-          "block_count": 40,
-          "weight_lbs": 717.0,
-          "position": {
-            "layer": 1,
-            "row": 1,
-            "col": 9
-          }
-        },
-        {
-          "pallet_number": 30,
-          "block_id": "COM-32",
-          "block_count": 40,
-          "weight_lbs": 717.0,
-          "position": {
-            "layer": 1,
-            "row": 1,
-            "col": 10
-          }
-        },
-        {
-          "pallet_number": 31,
-          "block_id": "COM-32",
-          "block_count": 40,
-          "weight_lbs": 717.0,
-          "position": {
-            "layer": 1,
-            "row": 1,
-            "col": 11
-          }
-        },
-        {
-          "pallet_number": 32,
-          "block_id": "COM-32",
-          "block_count": 40,
-          "weight_lbs": 717.0,
-          "position": {
-            "layer": 1,
-            "row": 2,
-            "col": 1
-          }
-        },
-        {
-          "pallet_number": 33,
-          "block_id": "COM-32",
-          "block_count": 40,
-          "weight_lbs": 717.0,
-          "position": {
-            "layer": 1,
-            "row": 2,
-            "col": 2
-          }
-        },
-        {
-          "pallet_number": 34,
-          "block_id": "COM-32",
-          "block_count": 40,
-          "weight_lbs": 717.0,
-          "position": {
-            "layer": 1,
-            "row": 2,
-            "col": 3
-          }
-        },
-        {
-          "pallet_number": 35,
-          "block_id": "COM-32",
-          "block_count": 40,
-          "weight_lbs": 717.0,
+          "block_count": 36,
+          "weight_lbs": 649.0,
           "position": {
             "layer": 1,
             "row": 2,
@@ -973,10 +886,10 @@
           }
         },
         {
-          "pallet_number": 36,
+          "pallet_number": 29,
           "block_id": "COM-32",
-          "block_count": 40,
-          "weight_lbs": 717.0,
+          "block_count": 36,
+          "weight_lbs": 649.0,
           "position": {
             "layer": 1,
             "row": 2,
@@ -984,76 +897,10 @@
           }
         },
         {
-          "pallet_number": 37,
+          "pallet_number": 32,
           "block_id": "COM-32",
-          "block_count": 40,
-          "weight_lbs": 717.0,
-          "position": {
-            "layer": 1,
-            "row": 2,
-            "col": 6
-          }
-        },
-        {
-          "pallet_number": 38,
-          "block_id": "COM-32",
-          "block_count": 40,
-          "weight_lbs": 717.0,
-          "position": {
-            "layer": 1,
-            "row": 2,
-            "col": 7
-          }
-        },
-        {
-          "pallet_number": 39,
-          "block_id": "COM-32",
-          "block_count": 40,
-          "weight_lbs": 717.0,
-          "position": {
-            "layer": 1,
-            "row": 2,
-            "col": 8
-          }
-        },
-        {
-          "pallet_number": 40,
-          "block_id": "COM-32",
-          "block_count": 40,
-          "weight_lbs": 717.0,
-          "position": {
-            "layer": 1,
-            "row": 2,
-            "col": 9
-          }
-        },
-        {
-          "pallet_number": 41,
-          "block_id": "COM-32",
-          "block_count": 40,
-          "weight_lbs": 717.0,
-          "position": {
-            "layer": 1,
-            "row": 2,
-            "col": 10
-          }
-        },
-        {
-          "pallet_number": 42,
-          "block_id": "COM-32",
-          "block_count": 40,
-          "weight_lbs": 717.0,
-          "position": {
-            "layer": 1,
-            "row": 2,
-            "col": 11
-          }
-        },
-        {
-          "pallet_number": 43,
-          "block_id": "COM-32",
-          "block_count": 40,
-          "weight_lbs": 717.0,
+          "block_count": 36,
+          "weight_lbs": 649.0,
           "position": {
             "layer": 2,
             "row": 1,
@@ -1061,10 +908,10 @@
           }
         },
         {
-          "pallet_number": 44,
+          "pallet_number": 35,
           "block_id": "COM-32",
-          "block_count": 29,
-          "weight_lbs": 530.0,
+          "block_count": 36,
+          "weight_lbs": 649.0,
           "position": {
             "layer": 2,
             "row": 1,
@@ -1072,10 +919,10 @@
           }
         },
         {
-          "pallet_number": 45,
-          "block_id": "COM-4",
-          "block_count": 40,
-          "weight_lbs": 121.0,
+          "pallet_number": 38,
+          "block_id": "COM-32",
+          "block_count": 36,
+          "weight_lbs": 649.0,
           "position": {
             "layer": 2,
             "row": 1,
@@ -1083,10 +930,10 @@
           }
         },
         {
-          "pallet_number": 46,
-          "block_id": "COM-4",
-          "block_count": 33,
-          "weight_lbs": 106.3,
+          "pallet_number": 41,
+          "block_id": "COM-32",
+          "block_count": 36,
+          "weight_lbs": 649.0,
           "position": {
             "layer": 2,
             "row": 1,
@@ -1094,10 +941,203 @@
           }
         },
         {
+          "pallet_number": 44,
+          "block_id": "COM-32",
+          "block_count": 36,
+          "weight_lbs": 649.0,
+          "position": {
+            "layer": 2,
+            "row": 1,
+            "col": 5
+          }
+        },
+        {
           "pallet_number": 47,
-          "block_id": "COM-8",
-          "block_count": 40,
-          "weight_lbs": 209.0,
+          "block_id": "COM-4",
+          "block_count": 73,
+          "weight_lbs": 190.3,
+          "position": {
+            "layer": 2,
+            "row": 2,
+            "col": 1
+          }
+        }
+      ],
+      "total_pallets": 16,
+      "layers_used": 2,
+      "loaded_pallet_height_in": 48,
+      "stack_height_in": 96,
+      "height_exceeds": false
+    },
+    {
+      "container_number": 3,
+      "type": "20HC",
+      "name": "20ft High Cube",
+      "interior_length_in": 232,
+      "interior_width_in": 92,
+      "interior_height_in": 102,
+      "max_payload_lbs": 47070,
+      "max_pallets": 20,
+      "pallets": [
+        {
+          "pallet_number": 3,
+          "block_id": "COM-32",
+          "block_count": 36,
+          "weight_lbs": 649.0,
+          "position": {
+            "layer": 1,
+            "row": 1,
+            "col": 1
+          }
+        },
+        {
+          "pallet_number": 6,
+          "block_id": "COM-32",
+          "block_count": 36,
+          "weight_lbs": 649.0,
+          "position": {
+            "layer": 1,
+            "row": 1,
+            "col": 2
+          }
+        },
+        {
+          "pallet_number": 9,
+          "block_id": "COM-32",
+          "block_count": 36,
+          "weight_lbs": 649.0,
+          "position": {
+            "layer": 1,
+            "row": 1,
+            "col": 3
+          }
+        },
+        {
+          "pallet_number": 12,
+          "block_id": "COM-32",
+          "block_count": 36,
+          "weight_lbs": 649.0,
+          "position": {
+            "layer": 1,
+            "row": 1,
+            "col": 4
+          }
+        },
+        {
+          "pallet_number": 15,
+          "block_id": "COM-32",
+          "block_count": 36,
+          "weight_lbs": 649.0,
+          "position": {
+            "layer": 1,
+            "row": 1,
+            "col": 5
+          }
+        },
+        {
+          "pallet_number": 18,
+          "block_id": "COM-32",
+          "block_count": 36,
+          "weight_lbs": 649.0,
+          "position": {
+            "layer": 1,
+            "row": 2,
+            "col": 1
+          }
+        },
+        {
+          "pallet_number": 21,
+          "block_id": "COM-32",
+          "block_count": 36,
+          "weight_lbs": 649.0,
+          "position": {
+            "layer": 1,
+            "row": 2,
+            "col": 2
+          }
+        },
+        {
+          "pallet_number": 24,
+          "block_id": "COM-32",
+          "block_count": 36,
+          "weight_lbs": 649.0,
+          "position": {
+            "layer": 1,
+            "row": 2,
+            "col": 3
+          }
+        },
+        {
+          "pallet_number": 27,
+          "block_id": "COM-32",
+          "block_count": 36,
+          "weight_lbs": 649.0,
+          "position": {
+            "layer": 1,
+            "row": 2,
+            "col": 4
+          }
+        },
+        {
+          "pallet_number": 30,
+          "block_id": "COM-32",
+          "block_count": 36,
+          "weight_lbs": 649.0,
+          "position": {
+            "layer": 1,
+            "row": 2,
+            "col": 5
+          }
+        },
+        {
+          "pallet_number": 33,
+          "block_id": "COM-32",
+          "block_count": 36,
+          "weight_lbs": 649.0,
+          "position": {
+            "layer": 2,
+            "row": 1,
+            "col": 1
+          }
+        },
+        {
+          "pallet_number": 36,
+          "block_id": "COM-32",
+          "block_count": 36,
+          "weight_lbs": 649.0,
+          "position": {
+            "layer": 2,
+            "row": 1,
+            "col": 2
+          }
+        },
+        {
+          "pallet_number": 39,
+          "block_id": "COM-32",
+          "block_count": 36,
+          "weight_lbs": 649.0,
+          "position": {
+            "layer": 2,
+            "row": 1,
+            "col": 3
+          }
+        },
+        {
+          "pallet_number": 42,
+          "block_id": "COM-32",
+          "block_count": 36,
+          "weight_lbs": 649.0,
+          "position": {
+            "layer": 2,
+            "row": 1,
+            "col": 4
+          }
+        },
+        {
+          "pallet_number": 45,
+          "block_id": "COM-32",
+          "block_count": 36,
+          "weight_lbs": 649.0,
           "position": {
             "layer": 2,
             "row": 1,
@@ -1107,74 +1147,8 @@
         {
           "pallet_number": 48,
           "block_id": "COM-8",
-          "block_count": 40,
-          "weight_lbs": 209.0,
-          "position": {
-            "layer": 2,
-            "row": 1,
-            "col": 6
-          }
-        },
-        {
-          "pallet_number": 49,
-          "block_id": "COM-8",
-          "block_count": 40,
-          "weight_lbs": 209.0,
-          "position": {
-            "layer": 2,
-            "row": 1,
-            "col": 7
-          }
-        },
-        {
-          "pallet_number": 50,
-          "block_id": "COM-8",
-          "block_count": 40,
-          "weight_lbs": 209.0,
-          "position": {
-            "layer": 2,
-            "row": 1,
-            "col": 8
-          }
-        },
-        {
-          "pallet_number": 51,
-          "block_id": "COM-8",
-          "block_count": 40,
-          "weight_lbs": 209.0,
-          "position": {
-            "layer": 2,
-            "row": 1,
-            "col": 9
-          }
-        },
-        {
-          "pallet_number": 52,
-          "block_id": "COM-8",
-          "block_count": 40,
-          "weight_lbs": 209.0,
-          "position": {
-            "layer": 2,
-            "row": 1,
-            "col": 10
-          }
-        },
-        {
-          "pallet_number": 53,
-          "block_id": "COM-8",
-          "block_count": 40,
-          "weight_lbs": 209.0,
-          "position": {
-            "layer": 2,
-            "row": 1,
-            "col": 11
-          }
-        },
-        {
-          "pallet_number": 54,
-          "block_id": "COM-8",
-          "block_count": 32,
-          "weight_lbs": 174.6,
+          "block_count": 180,
+          "weight_lbs": 811.0,
           "position": {
             "layer": 2,
             "row": 2,
@@ -1182,7 +1156,7 @@
           }
         }
       ],
-      "total_pallets": 34,
+      "total_pallets": 16,
       "layers_used": 2,
       "loaded_pallet_height_in": 48,
       "stack_height_in": 96,
