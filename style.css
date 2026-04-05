@@ -513,6 +513,8 @@ body {
   border-top: 4px solid var(--olive);
 }
 .footer strong { color: var(--sage); }
+.footer-link { color: var(--sage); text-decoration: none; }
+.footer-link:hover { text-decoration: underline; }
 .footer-note { margin-top: 0.5rem; font-size: 0.7rem; opacity: 0.6; }
 .footer-disclaimer {
   margin-top: 1rem;
