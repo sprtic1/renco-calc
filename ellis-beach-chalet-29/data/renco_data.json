@@ -1,7 +1,7 @@
 {
   "project": {
     "name": "Ellis Beach Chalet 29",
-    "run_date": "2026-04-05T13:42:03",
+    "run_date": "2026-04-05T14:30:45",
     "total_walls": 22,
     "walls_with_warnings": 1,
     "excluded_walls": 0
@@ -12,69 +12,69 @@
     "weight_is_estimated": true,
     "containers_required": 2,
     "container_recommendation": "1x 20ft High Cube + 1x 40ft High Cube",
-    "container_utilisation": 76.6,
+    "container_utilization": 76.6,
     "container_options": [
       {
         "label": "1x 20ft Standard [pallets: 49 needed > 20 capacity; height: 96in stack > 90in interior]",
         "containers": 1,
         "capacity": 20,
-        "utilisation": 245.0,
+        "utilization": 245.0,
         "recommended": false
       },
       {
         "label": "1x 20ft High Cube [pallets: 49 needed > 20 capacity]",
         "containers": 1,
         "capacity": 20,
-        "utilisation": 245.0,
+        "utilization": 245.0,
         "recommended": false
       },
       {
         "label": "1x 40ft Standard [pallets: 49 needed > 44 capacity; height: 96in stack > 90in interior]",
         "containers": 1,
         "capacity": 44,
-        "utilisation": 111.4,
+        "utilization": 111.4,
         "recommended": false
       },
       {
         "label": "1x 40ft High Cube [pallets: 49 needed > 44 capacity]",
         "containers": 1,
         "capacity": 44,
-        "utilisation": 111.4,
+        "utilization": 111.4,
         "recommended": false
       },
       {
         "label": "1x 20ft High Cube + 1x 40ft High Cube",
         "containers": 2,
         "capacity": 64,
-        "utilisation": 76.6,
+        "utilization": 76.6,
         "recommended": true
       },
       {
         "label": "2x 40ft High Cube",
         "containers": 2,
         "capacity": 88,
-        "utilisation": 55.7,
+        "utilization": 55.7,
         "recommended": false
       },
       {
         "label": "3x 20ft High Cube",
         "containers": 3,
         "capacity": 60,
-        "utilisation": 81.7,
+        "utilization": 81.7,
         "recommended": false
       },
       {
         "label": "2x 20ft High Cube + 1x 40ft High Cube",
         "containers": 3,
         "capacity": 84,
-        "utilisation": 58.3,
+        "utilization": 58.3,
         "recommended": false
       },
       {
         "label": "1x 20ft High Cube + 2x 40ft High Cube",
         "containers": 3,
         "capacity": 108,
-        "utilisation": 45.4,
+        "utilization": 45.4,
         "recommended": false
       }
     ]
