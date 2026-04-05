@@ -486,13 +486,21 @@ body {
   color: var(--olive);
   font-weight: 700;
 }
-.pending-note {
-  font-family: var(--mono);
-  font-size: 0.75rem;
-  color: #888;
-  line-height: 1.6;
+.pending-disclaimer {
+  font-size: 0.8rem;
+  font-style: italic;
+  color: #999;
+  line-height: 1.5;
   border-top: 1px solid #ddd;
   padding-top: 1rem;
+  margin-top: 1.5rem;
+}
+.pending-note {
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  color: #aaa;
+  line-height: 1.6;
+  margin-top: 0.5rem;
 }
 
 /* === Footer === */
