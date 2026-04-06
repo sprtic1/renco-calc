@@ -1,9 +1,9 @@
 {
   "project": {
     "name": "Ellis Beach Chalet 29",
-    "run_date": "2026-04-06T10:44:14",
+    "run_date": "2026-04-06T10:53:36",
     "total_walls": 43,
-    "walls_with_warnings": 15,
+    "walls_with_warnings": 1,
     "excluded_walls": 0
   },
   "summary": {
@@ -314,7 +314,7 @@
       "flags": null
     },
     {
-      "id": "WALL-038X",
+      "id": "WALL-038",
       "guid": "A72D4206-7CE9-4648-B806-2A461C41CBB0",
       "story": "MAIN FLOOR",
       "length_ft_in": "2'-8\"",
@@ -330,10 +330,8 @@
       },
       "total_blocks": 29,
       "weight_lbs": 240.0,
-      "flagged": true,
-      "flags": [
-        "Non-modular length: 2.0in remainder (wall 32.0in \u2014 nearest modular: 30in or 33in)"
-      ]
+      "flagged": false,
+      "flags": null
     },
     {
       "id": "WALL-032",
@@ -418,7 +416,7 @@
       "flags": null
     },
     {
-      "id": "WALL-042X",
+      "id": "WALL-042",
       "guid": "F618BBCD-3672-42B8-A94A-51723F97CDC7",
       "story": "MAIN FLOOR",
       "length_ft_in": "6'-8\"",
@@ -434,13 +432,11 @@
       },
       "total_blocks": 60,
       "weight_lbs": 624.0,
-      "flagged": true,
-      "flags": [
-        "Non-modular length: 2.0in remainder (wall 80.0in \u2014 nearest modular: 78in or 81in)"
-      ]
+      "flagged": false,
+      "flags": null
     },
     {
-      "id": "WALL-039X",
+      "id": "WALL-039",
       "guid": "A75A2E72-C73D-4B7F-B7DD-172F46EF65BE",
       "story": "MAIN FLOOR",
       "length_ft_in": "2'-8\"",
@@ -456,13 +452,11 @@
       },
       "total_blocks": 29,
       "weight_lbs": 240.0,
-      "flagged": true,
-      "flags": [
-        "Non-modular length: 2.0in remainder (wall 32.0in \u2014 nearest modular: 30in or 33in)"
-      ]
+      "flagged": false,
+      "flags": null
     },
     {
-      "id": "WALL-036X",
+      "id": "WALL-036",
       "guid": "48FF17C3-3056-4D89-9F3B-80FAC58F04B5",
       "story": "MAIN FLOOR",
       "length_ft_in": "3'-4\"",
@@ -478,13 +472,11 @@
       },
       "total_blocks": 45,
       "weight_lbs": 312.0,
-      "flagged": true,
-      "flags": [
-        "Non-modular length: 1.0in remainder (wall 40.0in \u2014 nearest modular: 39in or 42in)"
-      ]
+      "flagged": false,
+      "flags": null
     },
     {
-      "id": "WALL-030X",
+      "id": "WALL-030",
       "guid": "18A7CE36-1D45-4442-9EA3-3D0B543623B6",
       "story": "MAIN FLOOR",
       "length_ft_in": "9'-4\"",
@@ -501,10 +493,8 @@
       },
       "total_blocks": 90,
       "weight_lbs": 888.0,
-      "flagged": true,
-      "flags": [
-        "Non-modular length: 1.0in remainder (wall 112.0in \u2014 nearest modular: 111in or 114in)"
-      ]
+      "flagged": false,
+      "flags": null
     },
     {
       "id": "WALL-037",
@@ -569,7 +559,7 @@
       "flags": null
     },
     {
-      "id": "WALL-033X",
+      "id": "WALL-033",
       "guid": "2A2E11C5-CB75-4A75-9EB3-CEFBA32A5D44",
       "story": "MAIN FLOOR",
       "length_ft_in": "6'-8\"",
@@ -585,10 +575,8 @@
       },
       "total_blocks": 49,
       "weight_lbs": 448.0,
-      "flagged": true,
-      "flags": [
-        "Non-modular length: 2.0in remainder (wall 80.0in \u2014 nearest modular: 78in or 81in)"
-      ]
+      "flagged": false,
+      "flags": null
     },
     {
       "id": "WALL-006",
@@ -651,7 +639,7 @@
       "flags": null
     },
     {
-      "id": "WALL-012X",
+      "id": "WALL-012",
       "guid": "1376E42A-6680-40D3-A237-185E362F9FF1",
       "story": "LOWER LEVEL",
       "length_ft_in": "5'-4\"",
@@ -668,13 +656,11 @@
       },
       "total_blocks": 48,
       "weight_lbs": 403.2,
-      "flagged": true,
-      "flags": [
-        "Non-modular length: 1.0in remainder (wall 64.0in \u2014 nearest modular: 63in or 66in)"
-      ]
+      "flagged": false,
+      "flags": null
     },
     {
-      "id": "WALL-029X",
+      "id": "WALL-029",
       "guid": "A63446A6-4B86-4231-9B99-038B50ACBD85",
       "story": "LOWER LEVEL",
       "length_ft_in": "20'-8\"",
@@ -689,10 +675,8 @@
       },
       "total_blocks": 86,
       "weight_lbs": 1222.4,
-      "flagged": true,
-      "flags": [
-        "Non-modular length: 2.0in remainder (wall 248.0in \u2014 nearest modular: 246in or 249in)"
-      ]
+      "flagged": false,
+      "flags": null
     },
     {
       "id": "WALL-002",
@@ -755,7 +739,7 @@
       "flags": null
     },
     {
-      "id": "WALL-031X",
+      "id": "WALL-031",
       "guid": "77A5D15D-CDFF-48D0-AF05-D69B2DBA97FE",
       "story": "MAIN FLOOR",
       "length_ft_in": "5'-4\"",
@@ -772,10 +756,8 @@
       },
       "total_blocks": 59,
       "weight_lbs": 504.0,
-      "flagged": true,
-      "flags": [
-        "Non-modular length: 1.0in remainder (wall 64.0in \u2014 nearest modular: 63in or 66in)"
-      ]
+      "flagged": false,
+      "flags": null
     },
     {
       "id": "WALL-009",
@@ -999,7 +981,7 @@
       "flags": null
     },
     {
-      "id": "WALL-011X",
+      "id": "WALL-011",
       "guid": "46D2E63C-9693-4F50-BD1E-590B8B1DB776",
       "story": "GROUNDSKEEPER",
       "length_ft_in": "5'-4\"",
@@ -1016,13 +998,11 @@
       },
       "total_blocks": 48,
       "weight_lbs": 403.2,
-      "flagged": true,
-      "flags": [
-        "Non-modular length: 1.0in remainder (wall 64.0in \u2014 nearest modular: 63in or 66in)"
-      ]
+      "flagged": false,
+      "flags": null
     },
     {
-      "id": "WALL-028X",
+      "id": "WALL-028",
       "guid": "136220D6-37DA-475F-BB0B-34B8D5622169",
       "story": "GROUNDSKEEPER",
       "length_ft_in": "19'-4\"",
@@ -1039,13 +1019,11 @@
       },
       "total_blocks": 98,
       "weight_lbs": 1126.4,
-      "flagged": true,
-      "flags": [
-        "Non-modular length: 1.0in remainder (wall 232.0in \u2014 nearest modular: 231in or 234in)"
-      ]
+      "flagged": false,
+      "flags": null
     },
     {
-      "id": "WALL-041X",
+      "id": "WALL-041",
       "guid": "8A8316A4-1FF8-433A-B7E1-F7A385CF9D0F",
       "story": "MAIN FLOOR",
       "length_ft_in": "21'-4\"",
@@ -1062,13 +1040,11 @@
       },
       "total_blocks": 135,
       "weight_lbs": 1688.0,
-      "flagged": true,
-      "flags": [
-        "Non-modular length: 1.0in remainder (wall 256.0in \u2014 nearest modular: 255in or 258in)"
-      ]
+      "flagged": false,
+      "flags": null
     },
     {
-      "id": "WALL-043X",
+      "id": "WALL-043",
       "guid": "079A7B86-8F11-4934-A489-8B011A2D8530",
       "story": "MAIN FLOOR",
       "length_ft_in": "6'-8\"",
@@ -1084,13 +1060,11 @@
       },
       "total_blocks": 60,
       "weight_lbs": 624.0,
-      "flagged": true,
-      "flags": [
-        "Non-modular length: 2.0in remainder (wall 80.0in \u2014 nearest modular: 78in or 81in)"
-      ]
+      "flagged": false,
+      "flags": null
     },
     {
-      "id": "WALL-034X",
+      "id": "WALL-034",
       "guid": "012B2CF6-6DE7-43DA-9269-4D29E76ABBF5",
       "story": "MAIN FLOOR",
       "length_ft_in": "6'-8\"",
@@ -1106,10 +1080,8 @@
       },
       "total_blocks": 49,
       "weight_lbs": 448.0,
-      "flagged": true,
-      "flags": [
-        "Non-modular length: 2.0in remainder (wall 80.0in \u2014 nearest modular: 78in or 81in)"
-      ]
+      "flagged": false,
+      "flags": null
     }
   ],
   "containers": [
@@ -1811,48 +1783,6 @@
   "warnings": [
     {
       "detail": "Wall WALL-016X: Opening area 50% (174.1 sqft openings / 346.7 sqft wall) \u2014 reduce openings by 0.8 sqft to get below 50%"
-    },
-    {
-      "detail": "Wall WALL-038X: Non-modular length: 2.0in remainder (wall 32.0in \u2014 nearest modular: 30in or 33in)"
-    },
-    {
-      "detail": "Wall WALL-042X: Non-modular length: 2.0in remainder (wall 80.0in \u2014 nearest modular: 78in or 81in)"
-    },
-    {
-      "detail": "Wall WALL-039X: Non-modular length: 2.0in remainder (wall 32.0in \u2014 nearest modular: 30in or 33in)"
-    },
-    {
-      "detail": "Wall WALL-036X: Non-modular length: 1.0in remainder (wall 40.0in \u2014 nearest modular: 39in or 42in)"
-    },
-    {
-      "detail": "Wall WALL-030X: Non-modular length: 1.0in remainder (wall 112.0in \u2014 nearest modular: 111in or 114in)"
-    },
-    {
-      "detail": "Wall WALL-033X: Non-modular length: 2.0in remainder (wall 80.0in \u2014 nearest modular: 78in or 81in)"
-    },
-    {
-      "detail": "Wall WALL-012X: Non-modular length: 1.0in remainder (wall 64.0in \u2014 nearest modular: 63in or 66in)"
-    },
-    {
-      "detail": "Wall WALL-029X: Non-modular length: 2.0in remainder (wall 248.0in \u2014 nearest modular: 246in or 249in)"
-    },
-    {
-      "detail": "Wall WALL-031X: Non-modular length: 1.0in remainder (wall 64.0in \u2014 nearest modular: 63in or 66in)"
-    },
-    {
-      "detail": "Wall WALL-011X: Non-modular length: 1.0in remainder (wall 64.0in \u2014 nearest modular: 63in or 66in)"
-    },
-    {
-      "detail": "Wall WALL-028X: Non-modular length: 1.0in remainder (wall 232.0in \u2014 nearest modular: 231in or 234in)"
-    },
-    {
-      "detail": "Wall WALL-041X: Non-modular length: 1.0in remainder (wall 256.0in \u2014 nearest modular: 255in or 258in)"
-    },
-    {
-      "detail": "Wall WALL-043X: Non-modular length: 2.0in remainder (wall 80.0in \u2014 nearest modular: 78in or 81in)"
-    },
-    {
-      "detail": "Wall WALL-034X: Non-modular length: 2.0in remainder (wall 80.0in \u2014 nearest modular: 78in or 81in)"
     }
   ]
 }
