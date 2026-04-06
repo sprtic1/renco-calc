@@ -1,7 +1,7 @@
 {
   "project": {
     "name": "Ellis Beach Chalet 29",
-    "run_date": "2026-04-06T12:34:54",
+    "run_date": "2026-04-06T12:47:40",
     "total_walls": 43,
     "walls_with_warnings": 1,
     "excluded_walls": 0
@@ -11,43 +11,15 @@
     "total_weight_lbs": 38155.9,
     "weight_is_estimated": true,
     "containers_required": 2,
-    "container_recommendation": "2x 40ft High Cube",
+    "container_recommendation": "2x 40ft Standard",
     "container_utilization": 68.2,
     "container_options": [
       {
-        "label": "2x 40ft High Cube",
+        "label": "2x 40ft Standard",
         "containers": 2,
         "capacity": 88,
         "utilization": 68.2,
         "recommended": true
-      },
-      {
-        "label": "3x 40ft High Cube",
-        "containers": 3,
-        "capacity": 132,
-        "utilization": 45.5,
-        "recommended": false
-      },
-      {
-        "label": "1x 20ft High Cube + 2x 40ft High Cube",
-        "containers": 3,
-        "capacity": 108,
-        "utilization": 55.6,
-        "recommended": false
-      },
-      {
-        "label": "4x 40ft High Cube",
-        "containers": 4,
-        "capacity": 176,
-        "utilization": 34.1,
-        "recommended": false
-      },
-      {
-        "label": "1x 20ft High Cube + 3x 40ft High Cube",
-        "containers": 4,
-        "capacity": 152,
-        "utilization": 39.5,
-        "recommended": false
       }
     ]
   },
@@ -1059,12 +1031,12 @@
   "containers": [
     {
       "container_number": 1,
-      "type": "40HC",
-      "name": "40ft High Cube",
+      "type": "40ST",
+      "name": "40ft Standard",
       "interior_length_in": 473,
       "interior_width_in": 93,
-      "interior_height_in": 102,
-      "max_payload_lbs": 58135,
+      "interior_height_in": 90,
+      "max_payload_lbs": 58935,
       "max_pallets": 44,
       "pallets": [
         {
@@ -1319,12 +1291,12 @@
     },
     {
       "container_number": 2,
-      "type": "40HC",
-      "name": "40ft High Cube",
+      "type": "40ST",
+      "name": "40ft Standard",
       "interior_length_in": 473,
       "interior_width_in": 93,
-      "interior_height_in": 102,
-      "max_payload_lbs": 58135,
+      "interior_height_in": 90,
+      "max_payload_lbs": 58935,
       "max_pallets": 44,
       "pallets": [
         {
@@ -1751,7 +1723,7 @@
       "layers_used": 2,
       "loaded_pallet_height_in": 48,
       "stack_height_in": 96,
-      "height_exceeds": false
+      "height_exceeds": true
     }
   ],
   "warnings": [
