@@ -186,21 +186,10 @@ function renderShipping(data) {
     return;
   }
 
-  // Show recommendation + alternatives
+  // Show recommendation only
   const recEl = document.getElementById('shipping-rec');
   if (data.summary.container_recommendation) {
-    const util = data.summary.container_utilization || 0;
-    let html = `<strong>Recommended: ${data.summary.container_recommendation} — ${util}% utilization</strong>`;
-    const opts = data.summary.container_options || [];
-    const alts = opts.filter(o => !o.recommended).slice(0, 3);
-    if (alts.length > 0) {
-      html += '<div class="shipping-alternatives">';
-      alts.forEach(a => {
-        html += `<span class="alt-option">${a.label} (${a.utilization}%)</span>`;
-      });
-      html += '</div>';
-    }
-    recEl.innerHTML = html;
+    recEl.innerHTML = `<strong>${data.summary.container_recommendation}</strong>`;
   }
 
   data.containers.forEach(ctr => {
