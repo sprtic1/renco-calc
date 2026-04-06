@@ -59,9 +59,15 @@ async function init() {
 function renderHero(data) {
   document.getElementById('project-name').textContent = data.project.name;
   const d = new Date(data.project.run_date);
-  document.getElementById('run-date').textContent =
-    d.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }) +
+  let dateStr = d.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }) +
     ' at ' + d.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' });
+  const dur = data.project.pipeline_duration_sec;
+  if (dur && dur > 0) {
+    const mins = Math.floor(dur / 60);
+    const secs = Math.round(dur % 60);
+    dateStr += ` (${mins > 0 ? mins + 'm ' : ''}${secs}s)`;
+  }
+  document.getElementById('run-date').textContent = dateStr;
   document.title = `RENCO Block Schedule — ${data.project.name}`;
   const caption = document.getElementById('preview-caption');
   if (caption) caption.textContent = data.project.name;
