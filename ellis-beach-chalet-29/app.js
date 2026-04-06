@@ -270,7 +270,7 @@ function renderConsumables(data) {
       <div class="consumable-item">
         <div class="consumable-value">${c.mallets}</div>
         <div class="consumable-label">Rubber Mallets</div>
-        <div class="consumable-detail">Crew size: ${c.crew_size}</div>
+        <div class="consumable-detail">1 per 20 glue guns (${c.adhesive_cartridges} cartridges)</div>
       </div>
     </div>
   `;

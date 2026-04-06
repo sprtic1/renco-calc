@@ -1,7 +1,7 @@
 {
   "project": {
     "name": "Ellis Beach Chalet 29",
-    "run_date": "2026-04-06T14:41:22",
+    "run_date": "2026-04-06T14:48:49",
     "total_walls": 43,
     "walls_with_warnings": 1,
     "excluded_walls": 0
@@ -77,7 +77,7 @@
     "adhesive_cartridges": 60,
     "adhesive_joint_linear_ft": 5974.0,
     "adhesive_confirmed": false,
-    "mallets": 1,
+    "mallets": 3,
     "crew_size": 4
   },
   "blocks": [
