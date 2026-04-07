@@ -1,10 +1,10 @@
 {
   "project": {
     "name": "Ellis Beach Chalet 29",
-    "run_date": "2026-04-06T19:14:33",
-    "pipeline_duration_sec": 1082.4,
+    "run_date": "2026-04-06T19:58:52",
+    "pipeline_duration_sec": 444.8,
     "total_walls": 42,
-    "walls_with_warnings": 3,
+    "walls_with_warnings": 2,
     "excluded_walls": 0
   },
   "summary": {
@@ -486,11 +486,11 @@
       "flags": null
     },
     {
-      "id": "WALL-032X",
+      "id": "WALL-032",
       "guid": "2a2e11c5-cb75-4a75-9eb3-cefba32a5d44",
       "story": "MAIN FLOOR",
-      "length_ft_in": "8'-2\"",
-      "length_in": 98.0,
+      "length_ft_in": "8'-0\"",
+      "length_in": 96.0,
       "height_in": 120.0,
       "series": "residential",
       "courses": 15,
@@ -501,10 +501,8 @@
       },
       "total_blocks": 49,
       "weight_lbs": 592.0,
-      "flagged": true,
-      "flags": [
-        "Non-modular length: 2.0in remainder (wall 98.0in \u2014 nearest modular: 96in or 104in)"
-      ]
+      "flagged": false,
+      "flags": null
     },
     {
       "id": "WALL-005",
@@ -1704,9 +1702,6 @@
     },
     {
       "detail": "Wall WALL-019X: Opening area 50% (110.5 sqft openings / 220.0 sqft wall) \u2014 reduce openings by 0.5 sqft to get below 50%"
-    },
-    {
-      "detail": "Wall WALL-032X: Non-modular length: 2.0in remainder (wall 98.0in \u2014 nearest modular: 96in or 104in)"
     }
   ]
 }
