@@ -1,8 +1,8 @@
 {
   "project": {
     "name": "Ellis Beach Chalet 29",
-    "run_date": "2026-04-10T12:22:18",
-    "pipeline_duration_sec": 180.7,
+    "run_date": "2026-04-10T13:17:10",
+    "pipeline_duration_sec": 98.0,
     "total_walls": 45,
     "walls_with_warnings": 5,
     "excluded_walls": 0
@@ -1009,7 +1009,7 @@
       "flags": null
     },
     {
-      "id": "WALL-044X",
+      "id": "WALL-043X",
       "guid": "2FD7D7FE-C31F-4FD7-A88C-4EAE7F7E6A1F",
       "story": "GROUNDSKEEPER",
       "length_ft_in": "32'-7\"",
@@ -1032,7 +1032,7 @@
       ]
     },
     {
-      "id": "WALL-043X",
+      "id": "WALL-044X",
       "guid": "C7CD7A83-1682-4221-92F7-7E15563EEDBA",
       "story": "GROUNDSKEEPER",
       "length_ft_in": "10'-8\"",
@@ -1892,10 +1892,10 @@
       "detail": "Wall WALL-019X: Opening area 50% (110.5 sqft openings / 220.0 sqft wall) \u2014 reduce openings by 0.5 sqft to get below 50%"
     },
     {
-      "detail": "Wall WALL-044X: Non-modular length: 7.0in remainder (wall 391.0in \u2014 nearest modular: 384in or 392in)"
+      "detail": "Wall WALL-043X: Non-modular length: 7.0in remainder (wall 391.0in \u2014 nearest modular: 384in or 392in)"
     },
     {
-      "detail": "Wall WALL-043X: Non-modular height: 1.4in remainder (145.4in / 8in courses)"
+      "detail": "Wall WALL-044X: Non-modular height: 1.4in remainder (145.4in / 8in courses)"
     },
     {
       "detail": "Wall WALL-045X: Non-modular length: 2.0in remainder (wall 562.0in \u2014 nearest modular: 560in or 568in)"
