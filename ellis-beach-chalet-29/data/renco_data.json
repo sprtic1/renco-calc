@@ -1,25 +1,25 @@
 {
   "project": {
     "name": "Ellis Beach Chalet 29",
-    "run_date": "2026-04-10T15:05:42",
-    "pipeline_duration_sec": 0.8,
-    "total_walls": 56,
-    "walls_with_warnings": 13,
+    "run_date": "2026-04-10T15:07:51",
+    "pipeline_duration_sec": 0.7,
+    "total_walls": 57,
+    "walls_with_warnings": 14,
     "excluded_walls": 0
   },
   "summary": {
-    "total_blocks": 5239,
-    "total_weight_lbs": 71447.1,
+    "total_blocks": 5305,
+    "total_weight_lbs": 72186.9,
     "weight_is_estimated": true,
     "containers_required": 3,
     "container_recommendation": "2x 40ft High Cube + 1x 40ft Standard",
-    "container_utilization": 86.4,
+    "container_utilization": 87.1,
     "container_options": [
       {
         "label": "2x 40ft High Cube + 1x 40ft Standard",
         "containers": 3,
         "capacity": 132,
-        "utilization": 86.4,
+        "utilization": 87.1,
         "recommended": true
       }
     ]
@@ -75,8 +75,8 @@
     }
   },
   "consumables": {
-    "adhesive_cartridges": 112,
-    "adhesive_joint_linear_ft": 11194.0,
+    "adhesive_cartridges": 114,
+    "adhesive_joint_linear_ft": 11310.0,
     "adhesive_confirmed": false,
     "mallets": 6,
     "crew_size": 4
@@ -86,37 +86,37 @@
       "id": "COM-16",
       "name": "COM-16",
       "series": "commercial",
-      "count": 274,
+      "count": 280,
       "weight_per_block_lbs": 8.5,
       "confirmed_weight": true,
-      "total_weight_lbs": 2329.0
+      "total_weight_lbs": 2380.0
     },
     {
       "id": "COM-32",
       "name": "COM-32",
       "series": "commercial",
-      "count": 3001,
+      "count": 3037,
       "weight_per_block_lbs": 17.0,
       "confirmed_weight": false,
-      "total_weight_lbs": 51017.0
+      "total_weight_lbs": 51629.0
     },
     {
       "id": "COM-4",
       "name": "COM-4",
       "series": "commercial",
-      "count": 110,
+      "count": 122,
       "weight_per_block_lbs": 2.1,
       "confirmed_weight": false,
-      "total_weight_lbs": 231.0
+      "total_weight_lbs": 256.2
     },
     {
       "id": "COM-8",
       "name": "COM-8",
       "series": "commercial",
-      "count": 503,
+      "count": 515,
       "weight_per_block_lbs": 4.3,
       "confirmed_weight": false,
-      "total_weight_lbs": 2162.9
+      "total_weight_lbs": 2214.5
     },
     {
       "id": "RES-12",
@@ -1313,6 +1313,29 @@
       "flags": [
         "Non-modular length: 1.0in remainder (wall 49.0in \u2014 nearest modular: 48in or 56in)"
       ]
+    },
+    {
+      "id": "WALL-057X",
+      "guid": "EB658B1B-041A-429E-9657-8E9524AFF9D8",
+      "story": "LOWER LEVEL",
+      "length_ft_in": "9'-8\"",
+      "length_in": 116.0,
+      "height_in": 96.0,
+      "series": "commercial",
+      "courses": 12,
+      "openings": 0,
+      "blocks": {
+        "COM-32": 36,
+        "COM-16": 6,
+        "COM-4": 12,
+        "COM-8": 12
+      },
+      "total_blocks": 66,
+      "weight_lbs": 739.8,
+      "flagged": true,
+      "flags": [
+        "Non-modular length: 4.0in remainder (wall 116.0in \u2014 nearest modular: 112in or 120in)"
+      ]
     }
   ],
   "containers": [
@@ -1362,8 +1385,8 @@
         {
           "pallet_number": 4,
           "block_id": "COM-16",
-          "block_count": 4,
-          "weight_lbs": 71.0,
+          "block_count": 10,
+          "weight_lbs": 122.0,
           "position": {
             "layer": 1,
             "row": 1,
@@ -1812,7 +1835,7 @@
         }
       ],
       "total_pallets": 44,
-      "total_weight_lbs": 28437.0,
+      "total_weight_lbs": 28488.0,
       "layers_used": 2,
       "loaded_pallet_height_in": 48,
       "stack_height_in": 96,
@@ -2304,8 +2327,8 @@
         {
           "pallet_number": 88,
           "block_id": "COM-32",
-          "block_count": 13,
-          "weight_lbs": 258.0,
+          "block_count": 36,
+          "weight_lbs": 649.0,
           "position": {
             "layer": 2,
             "row": 2,
@@ -2314,7 +2337,7 @@
         }
       ],
       "total_pallets": 44,
-      "total_weight_lbs": 28165.0,
+      "total_weight_lbs": 28556.0,
       "layers_used": 2,
       "loaded_pallet_height_in": 48,
       "stack_height_in": 96,
@@ -2332,9 +2355,9 @@
       "pallets": [
         {
           "pallet_number": 89,
-          "block_id": "COM-4",
-          "block_count": 110,
-          "weight_lbs": 268.0,
+          "block_id": "COM-32",
+          "block_count": 13,
+          "weight_lbs": 258.0,
           "position": {
             "layer": 1,
             "row": 1,
@@ -2343,9 +2366,9 @@
         },
         {
           "pallet_number": 90,
-          "block_id": "COM-8",
-          "block_count": 180,
-          "weight_lbs": 811.0,
+          "block_id": "COM-4",
+          "block_count": 122,
+          "weight_lbs": 293.2,
           "position": {
             "layer": 1,
             "row": 2,
@@ -2366,8 +2389,8 @@
         {
           "pallet_number": 92,
           "block_id": "COM-8",
-          "block_count": 143,
-          "weight_lbs": 651.9,
+          "block_count": 180,
+          "weight_lbs": 811.0,
           "position": {
             "layer": 1,
             "row": 2,
@@ -2376,9 +2399,9 @@
         },
         {
           "pallet_number": 93,
-          "block_id": "RES-12",
-          "block_count": 144,
-          "weight_lbs": 958.6,
+          "block_id": "COM-8",
+          "block_count": 155,
+          "weight_lbs": 703.5,
           "position": {
             "layer": 1,
             "row": 1,
@@ -2388,8 +2411,8 @@
         {
           "pallet_number": 94,
           "block_id": "RES-12",
-          "block_count": 45,
-          "weight_lbs": 325.0,
+          "block_count": 144,
+          "weight_lbs": 958.6,
           "position": {
             "layer": 1,
             "row": 2,
@@ -2398,9 +2421,9 @@
         },
         {
           "pallet_number": 95,
-          "block_id": "RES-3",
-          "block_count": 111,
-          "weight_lbs": 214.6,
+          "block_id": "RES-12",
+          "block_count": 45,
+          "weight_lbs": 325.0,
           "position": {
             "layer": 1,
             "row": 1,
@@ -2409,9 +2432,9 @@
         },
         {
           "pallet_number": 96,
-          "block_id": "RES-30",
-          "block_count": 48,
-          "weight_lbs": 805.0,
+          "block_id": "RES-3",
+          "block_count": 111,
+          "weight_lbs": 214.6,
           "position": {
             "layer": 1,
             "row": 2,
@@ -2479,9 +2502,9 @@
           "block_count": 48,
           "weight_lbs": 805.0,
           "position": {
-            "layer": 2,
-            "row": 1,
-            "col": 1
+            "layer": 1,
+            "row": 2,
+            "col": 7
           }
         },
         {
@@ -2491,7 +2514,7 @@
           "weight_lbs": 805.0,
           "position": {
             "layer": 2,
-            "row": 2,
+            "row": 1,
             "col": 1
           }
         },
@@ -2502,8 +2525,8 @@
           "weight_lbs": 805.0,
           "position": {
             "layer": 2,
-            "row": 1,
-            "col": 2
+            "row": 2,
+            "col": 1
           }
         },
         {
@@ -2513,7 +2536,7 @@
           "weight_lbs": 805.0,
           "position": {
             "layer": 2,
-            "row": 2,
+            "row": 1,
             "col": 2
           }
         },
@@ -2524,8 +2547,8 @@
           "weight_lbs": 805.0,
           "position": {
             "layer": 2,
-            "row": 1,
-            "col": 3
+            "row": 2,
+            "col": 2
           }
         },
         {
@@ -2535,7 +2558,7 @@
           "weight_lbs": 805.0,
           "position": {
             "layer": 2,
-            "row": 2,
+            "row": 1,
             "col": 3
           }
         },
@@ -2546,8 +2569,8 @@
           "weight_lbs": 805.0,
           "position": {
             "layer": 2,
-            "row": 1,
-            "col": 4
+            "row": 2,
+            "col": 3
           }
         },
         {
@@ -2557,7 +2580,7 @@
           "weight_lbs": 805.0,
           "position": {
             "layer": 2,
-            "row": 2,
+            "row": 1,
             "col": 4
           }
         },
@@ -2568,8 +2591,8 @@
           "weight_lbs": 805.0,
           "position": {
             "layer": 2,
-            "row": 1,
-            "col": 5
+            "row": 2,
+            "col": 4
           }
         },
         {
@@ -2579,7 +2602,7 @@
           "weight_lbs": 805.0,
           "position": {
             "layer": 2,
-            "row": 2,
+            "row": 1,
             "col": 5
           }
         },
@@ -2590,12 +2613,23 @@
           "weight_lbs": 805.0,
           "position": {
             "layer": 2,
+            "row": 2,
+            "col": 5
+          }
+        },
+        {
+          "pallet_number": 113,
+          "block_id": "RES-30",
+          "block_count": 48,
+          "weight_lbs": 805.0,
+          "position": {
+            "layer": 2,
             "row": 1,
             "col": 6
           }
         },
         {
-          "pallet_number": 113,
+          "pallet_number": 114,
           "block_id": "RES-30",
           "block_count": 40,
           "weight_lbs": 677.0,
@@ -2606,7 +2640,7 @@
           }
         },
         {
-          "pallet_number": 114,
+          "pallet_number": 115,
           "block_id": "RES-6",
           "block_count": 195,
           "weight_lbs": 661.0,
@@ -2617,8 +2651,8 @@
           }
         }
       ],
-      "total_pallets": 26,
-      "total_weight_lbs": 19063.1,
+      "total_pallets": 27,
+      "total_weight_lbs": 19397.9,
       "layers_used": 2,
       "loaded_pallet_height_in": 48,
       "stack_height_in": 96,
@@ -2664,6 +2698,9 @@
     },
     {
       "detail": "Wall WALL-056X: Non-modular length: 1.0in remainder (wall 49.0in \u2014 nearest modular: 48in or 56in)"
+    },
+    {
+      "detail": "Wall WALL-057X: Non-modular length: 4.0in remainder (wall 116.0in \u2014 nearest modular: 112in or 120in)"
     }
   ]
 }
